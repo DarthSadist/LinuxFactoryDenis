@@ -1,7 +1,10 @@
+---
 - hosts: web
   roles:
-     - { role: 'common' }
+    - { role: 'common' }
+    - { role: 'hostname' }
 
-- hosts: bd
+- hosts: db
   roles:
-     - { role: 'common'}
+    - { role: 'common' }
+    - { role: 'hostname' }
