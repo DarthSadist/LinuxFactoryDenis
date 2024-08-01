@@ -1,5 +1,5 @@
 ---
 # tasks file for hostname
-- name: Change hostname to  stage
+- name: Change hostname to  ProductionNext
   hostname:
-    name: stage
+    name: ProductionNext
